@@ -1,0 +1,12 @@
+﻿@model ShowModel
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h2>Your Image</h2>
+<div class="alert alert-success" role="alert">
+    @Model.Analysis
+</div>
+<div>
+    <img src="@Model.Uri" class="img-fluid" width="460" height="345" />
+</div>
